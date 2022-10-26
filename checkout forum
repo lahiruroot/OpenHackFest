@@ -1,0 +1,210 @@
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body 
+{
+  font-family: poppins;
+  font-size: 20px;
+  padding: 10px;
+}
+
+{
+  box-sizing:border-box;
+}
+
+.row 
+{
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  margin: 0 -20px;
+}
+
+.col-25 
+{
+  -ms-flex: 30%; 
+  flex: 30%;
+}
+
+.col-50 
+{
+  -ms-flex: 60%; 
+  flex: 30%;
+}
+
+.col-75 
+{
+  -ms-flex: 75%; 
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 
+{
+  padding: 0 20px;
+}
+
+.container 
+{
+  background-color: #e8dada;
+  padding: 10px 30px 25px 30px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+input[type=text] 
+{
+  width: 120%;
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #e9d9cf;
+  border-radius: 5px;
+}
+
+label 
+{
+  margin-bottom: 15px;
+  display: block;
+}
+
+.icon-container 
+{
+  margin-bottom: 20px;
+  padding: 10px 0;
+  font-size: 25 px;
+}
+
+.btn 
+{
+  background-color: #1072c6;
+  color: white;
+  padding: 15px;
+  margin: 10px 0;
+  border: box;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.btn:hover 
+{
+  background-color: #2d8631;
+}
+
+a 
+{
+  color: #0000cc;
+}
+
+hr 
+{
+  border: 1px solid lightgrey;
+}
+
+span.price 
+{
+  float: right;
+  color: black;
+}
+
+
+@media (max-width: 900px) 
+{
+  .row 
+  {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Checkout Form</h2>
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email Address</label>
+            <input type="text" id="email Address" name="email Address" placeholder="john@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="New York">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style="color:navy;"></i>
+              <i class="fa fa-cc-amex" style="color:blue;"></i>
+              <i class="fa fa-cc-mastercard" style="color:red;"></i>
+              <i class="fa fa-cc-discover" style="color:orange;"></i>
+            </div>
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
+      <p><a href="#">Non-veg Pizza</a> <span class="price">$15</span></p>
+      <p><a href="#">Loaded Pizza</a> <span class="price">$5</span></p>
+      <p><a href="#">Spicy Chicken Pizza</a> <span class="price">$8</span></p>
+      <p><a href="#">Thandoori Pizza</a> <span class="price">$2</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
