@@ -1,0 +1,7 @@
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Console_Calculator\bin\Debug\Console_Calculator.exe.config
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Console_Calculator\bin\Debug\Console_Calculator.exe
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Console_Calculator\bin\Debug\Console_Calculator.pdb
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Console_Calculator\obj\Debug\Console_Calculator.csprojAssemblyReference.cache
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Console_Calculator\obj\Debug\Console_Calculator.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Console_Calculator\obj\Debug\Console_Calculator.exe
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Console_Calculator\obj\Debug\Console_Calculator.pdb
