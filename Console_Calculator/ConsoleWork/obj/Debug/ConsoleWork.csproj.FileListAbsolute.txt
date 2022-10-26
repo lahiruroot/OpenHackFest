@@ -1,0 +1,7 @@
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\ConsoleWork\bin\Debug\ConsoleWork.exe.config
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\ConsoleWork\bin\Debug\ConsoleWork.exe
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\ConsoleWork\bin\Debug\ConsoleWork.pdb
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\ConsoleWork\obj\Debug\ConsoleWork.csprojAssemblyReference.cache
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\ConsoleWork\obj\Debug\ConsoleWork.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\ConsoleWork\obj\Debug\ConsoleWork.exe
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\ConsoleWork\obj\Debug\ConsoleWork.pdb

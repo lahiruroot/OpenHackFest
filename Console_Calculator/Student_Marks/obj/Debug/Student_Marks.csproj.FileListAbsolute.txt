@@ -1,0 +1,10 @@
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Student_Marks\bin\Debug\Student_Marks.exe.config
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Student_Marks\bin\Debug\Student_Marks.exe
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Student_Marks\bin\Debug\Student_Marks.pdb
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Student_Marks\obj\Debug\Student_Marks.csprojAssemblyReference.cache
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Student_Marks\obj\Debug\Student_Marks.Student_marks.resources
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Student_Marks\obj\Debug\Student_Marks.Properties.Resources.resources
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Student_Marks\obj\Debug\Student_Marks.csproj.GenerateResource.cache
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Student_Marks\obj\Debug\Student_Marks.csproj.CoreCompileInputs.cache
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Student_Marks\obj\Debug\Student_Marks.exe
+C:\Users\asus\Documents\Visual Studio 2017\First_C#\Console_Calculator\Student_Marks\obj\Debug\Student_Marks.pdb
